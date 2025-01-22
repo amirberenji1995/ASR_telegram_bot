@@ -8,10 +8,12 @@ from speechmatics.batch_client import BatchClient
 from httpx import HTTPStatusError
 import nest_asyncio
 from httpx import Timeout
+from dotenv import load_dotenv
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-from dotenv import load_dotenv
+
+# Load environment variables
 load_dotenv()
 
 # Access your sensitive information from environment variables
