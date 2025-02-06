@@ -2,4 +2,4 @@ python-telegram-bot
 speechmatics-python
 httpx
 python-dotenv
-nest-asyncio
+pyTelegramBotAPI
